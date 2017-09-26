@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{background: #000;text-align: center;}
+			canvas{background: url("img/game_bg_2_hd.jpg");}
+		</style>
+	</head>
+	<body>
+		<canvas width="800" height="600" id="c1"></canvas>
+	</body>
+</html>
+<script src="public.js"></script>
+<script src="fish.js"></script>
+<script src="button.js"></script>
+<script src="cannon.js"></script>
+<script src="bullet.js"></script>
+<script src="coin.js"></script>
+<script src="diefish.js"></script>
+<script src="web.js"></script>
+<script src="score.js"></script>
+<script src="count.js"></script>
+
+<script>
+	var oC=document.getElementById("c1");
+	var gd=oC.getContext("2d");
+		
+	window.onload=function(){
+		var g=new GameEngine();
+		g.loadImage(resource,g.init);
+	}
+</script>
