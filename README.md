@@ -2,4 +2,4 @@
 
 ### 使用Canvas实现
 
-<img src='./img/game_screenshoot.png'>
+<img src='./img/game_screenshoot.png'/>
